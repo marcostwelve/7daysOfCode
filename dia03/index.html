@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 03</title>
+</head>
+<body>
+    <script>
+          var nome = prompt("Qual área você deseja seguir? 1 - Front-End 2 - Back-End");
+          alert(nome);
+          
+          if(nome == "Front-End") {
+            var linguagem = prompt("Qual tecnologia você quer aprender? 1 - React 2 - Vue");
+            alert(linguagem);
+
+            var escolha = prompt("Você gostaria de se especializar nessa tecnologia? 1 - Sim 2 - Não");
+            if(escolha == "Sim") {
+                alert("Legal!!! Continue estudando que você será um grande desenvolvedor Front-End!");
+            }
+            if(escolha == "Não") {
+                alert("Legal!!! Continue estudando que você será um grande desenvolvedor FullStack!");
+            }
+            
+          }
+          if(nome == "Back-End") {
+            var linguagem = prompt("Qual linguagem você quer aprender? 1 - C# 2 - Java");
+            alert(linguagem);
+
+            var escolha = prompt("Você gostaria de se especializar nessa tecnologia? 1 - Sim 2 - Não");
+            if(escolha == "Sim") {
+                alert("Legal!!! Continue estudando que você será um grande desenvolvedor Back-End!");
+            }
+            if(escolha == "Não") {
+                alert("Legal!!! Continue estudando que você será um grande desenvolvedor FullStack");
+            }
+          }
+
+          
+          do {
+            var tec = prompt("Qual tecnologia gostaria de aprender?");
+            alert(`A tecnologia ${tec} é muito legal!!!`);
+            var escolha = prompt("Gostaria de aprender mais tecnologias? 1 - Sim 2 - Não");
+            if(escolha == "Sim") {
+                alert("Maravilha!!!");
+            }
+            else {
+                alert("Continue estudando e compartilhe seus conhecimentos!!!")
+            }
+
+          } while(escolha == "Sim");
+    </script>
+</body>
+</html>
