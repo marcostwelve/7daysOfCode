@@ -106,7 +106,7 @@ var escolha;
         console.log("Frutas: "+frutas+"\n");
         console.log("Laticínios: "+laticinios+"\n");
         console.log("Congelados: "+congelados+"\n");
-        console.log("Doces: "+doces+"\n");
+        console.log("Doces: "+doces);
     }
 
 
